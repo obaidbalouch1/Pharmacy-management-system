@@ -1,0 +1,9 @@
+# Deny direct access to backup files
+# Only allow access through download_backup.php script
+
+Order Deny,Allow
+Deny from all
+
+# Allow access from localhost (for development)
+Allow from 127.0.0.1
+Allow from ::1
