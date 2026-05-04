@@ -49,7 +49,7 @@ Extract to: C:\xampp\htdocs\pharmacy
 
 ### 5. Access System
 - URL: http://localhost/pharmacy
-- Username: `admin`
+- Username: `pharmacy12`
 - Password: `admin123`
 
 ### 6. Done! 🎉
