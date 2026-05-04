@@ -202,7 +202,7 @@ CREATE TABLE IF NOT EXISTS activity_logs (
 
 -- Insert Default Admin User (password: admin123)
 INSERT INTO users (username, password, full_name, email, role, status) 
-VALUES ('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'System Administrator', 'admin@pharmacy.com', 'admin', 'active');
+VALUES ('pharmacy12', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'System Administrator', 'admin@pharmacy.com', 'admin', 'active');
 
 -- Insert Sample Categories
 INSERT INTO categories (category_name, description) VALUES
